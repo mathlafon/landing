@@ -1,0 +1,62 @@
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0% , rgba(0,0,0,0.1) 50%), url(../../Images/background.jpeg);
+	color: ghostwhite;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.banner h1 {
+	font-size: 50px ;
+}
+
+
+@media (max-width: 960px) {
+  /* For screens with a maximum width of 960px or less */
+  .banner h1{
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For screens with a maximum width of 720px or less */
+  .banner h1 {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For screens with a maximum width of 540px or less */
+  .banner h1 {
+    max-width: 300px;
+  }
+}
+
+.banner h2 {
+	font-size: 50px ;
+	font-weight: lighter;
+	opacity: 0.9;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For screens with a maximum width of 960px or less */
+  .banner h2 {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For screens with a maximum width of 720px or less */
+  .banner h2 {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For screens with a maximum width of 540px or less */
+  .banner h2 {
+    max-width: 300px;
+  }
+}

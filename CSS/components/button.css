@@ -1,0 +1,24 @@
+.btn-yellow {
+	background-color: rgba(195,132,59,0.5);
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: #d7deea;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+.btn-yellow:hover {
+    text-decoration-line: revert;
+}
+
+.btn-transparent
+{
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn-transparent:hover {
+	text-decoration-line: revert;
+}
